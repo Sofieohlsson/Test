@@ -60,10 +60,7 @@ console.log(stack);
 
 let currentLength = stack.push("text"); 
 
-console.push();
-console.push();
-console.push();
-console.push();
+// console.push();
 console.log(stack.length);
 
 // Ta bort ett element
@@ -74,10 +71,19 @@ console.log(stack);
 console.log(kurs); 
 
 // Spara sista elementet innan borttagning
-let kurs = stack.pop(); 
+// let kurs = stack.pop(); 
 console.log(stack); 
 console.log(kurs); 
+stack.pop();
+stack.pop();
+console.log(stack); 
 
-stack.pop();
-stack.pop();
-stack.pop();
+// Mer om array konstruktorn
+let test1 = new Array(10,20,30); 
+console.log(test1); 
+console.log(test1.length); 
+// Vad gör denna sats? 
+let test2 = new Array(10); 
+console.log(test2); 
+console.log(test2.length); 
+let test3 = [10]; 
