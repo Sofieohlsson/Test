@@ -48,3 +48,36 @@ console.log(cars2);
 cars2.sort();
 cars2.reverse(); 
 console.log(cars2);
+
+// Arbeta med en "stack"
+let stack = [];             // Skapa en tom array 
+stack.push("JavaScript 1"); // Lägg till sist i arrayen
+console.log(stack); 
+stack.push("HTML och CSS"); 
+console.log(stack); 
+stack.push("JavaScript 2"); 
+console.log(stack); 
+
+let currentLength = stack.push("text"); 
+
+console.push();
+console.push();
+console.push();
+console.push();
+console.log(stack.length);
+
+// Ta bort ett element
+stack.pop(); // ta bort sista elementet
+console.log(stack); 
+let kurs = stack.pop(); 
+console.log(stack); 
+console.log(kurs); 
+
+// Spara sista elementet innan borttagning
+let kurs = stack.pop(); 
+console.log(stack); 
+console.log(kurs); 
+
+stack.pop();
+stack.pop();
+stack.pop();
